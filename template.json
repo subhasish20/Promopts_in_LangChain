@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "style",
+        "text"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n        Your are a helpful assistant !!\n        Act as an expert in summarizer and summarize the given text {text},\n        Where the summarization style will be {style}\n        and the length will be {length}\n        ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
